@@ -57,10 +57,4 @@ async function geraHtml(){
     // window.open(retorno);
 }
 
-
-/*
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:brunodias200/gerador_newsletter_Delucca.git
-git push -u origin main
-*/
+alert('finalizado arquivo salvo em: '+ caminho)
