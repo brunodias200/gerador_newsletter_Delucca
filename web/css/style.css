@@ -1,0 +1,54 @@
+/*
+cores:
+        #f26826 - Laranja
+        #005b31 - Verde
+
+*/
+.logo{
+
+    height: 60px;
+}
+.header-div{
+    background-color: #ff8d008a;
+    height: 105px;
+    color: #005b31;
+    padding-top: 20px;
+}
+.header-div h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+.form-container{
+    margin-top: 60px;
+}
+.form-container input, .form-container select{
+    border: 10px solid #ced4da;
+    margin-bottom: 5px;
+}
+.form-container h2{
+    margin-bottom: 40px;
+    color: black;
+}
+
+.dark{
+    background-color: #005b31;
+    height: auto;
+
+}
+.table{
+    text-align: center;
+    border-width: 1px;
+}
+.indice{
+    text-align: left;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .disabled-link{
+    pointer-events: none
+  }
