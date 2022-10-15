@@ -1,0 +1,5 @@
+/build
+/dist
+/venv1
+*.spec
+/web/bootstrap
