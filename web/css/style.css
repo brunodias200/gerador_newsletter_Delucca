@@ -42,7 +42,32 @@ body {
     padding: 10px 40px;
     background: #E2E2E2;
     margin-right: 20px;
+    transition: 0.3s;
 }
+
+.input-template input[type="button"]:hover {
+    transform: scale(1.05);
+    background-color: #3e3e3e;
+    color: white;
+}
+
+.linha-de-produtos {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 3rem;
+    border-radius: 30px;
+    margin: 2rem auto;
+}
+
+.linha-de-produtos img {
+    margin-bottom: 2rem;
+    height: fit-content;
+}
+
 
 .form-container{
     margin-top: 60px;
@@ -72,6 +97,17 @@ button.remover-produto {
     position: absolute;
     margin-top: -18px;
     font-weight: 900;
+    transition: 0.2s;
+}
+
+button.remover-produto:hover {
+    transform: rotate(180deg) scale(1.1);
+    background-color: #212529;
+}
+
+.linha-de-produtos button.remover-produto {
+    top: 0;
+    left: -14px;
 }
 
 .conteudo .col-4 img {
@@ -101,15 +137,19 @@ button.remover-produto {
     margin-right: 20px;
 }
 
-.botoes-final button {
-    width: 100%;
-}
+
 
 .botoes-final button {
     width: 100%;
     font-weight: bold;
     border: none;
     text-transform: uppercase;
+    transition: 0.2s;
+}
+
+.botoes-final button:hover {
+    filter: brightness(0.5);
+    transform: scale(1.05);
 }
 
 button#btnPreview {
