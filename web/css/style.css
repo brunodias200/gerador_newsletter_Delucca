@@ -8,40 +8,121 @@ cores:
 
     height: 60px;
 }
-.header-div{
-    background-color: #ff8d008a;
-    height: 105px;
-    color: #005b31;
-    padding-top: 20px;
+
+
+body {
+    font-family: 'Proxima Nova', sans-serif;
 }
-.header-div h1{
-    text-align: center;
-    text-transform: capitalize;
+
+.topo h1 {
+    background-color: #00AEEF;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 45px;
+    border-radius: 31px;
+    width: fit-content;
+    margin: 02rem auto;
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 900;
 }
+
+.input-template input {
+    padding: 8px;
+    color: #979797;
+}
+
+.input-template input[type="text"] {
+    width: 60%;
+    border-radius: 22px;
+}
+
+
+.input-template input[type="button"] {
+    border: none;
+    padding: 10px 40px;
+    background: #E2E2E2;
+    margin-right: 20px;
+}
+
 .form-container{
     margin-top: 60px;
 }
-.form-container input, .form-container select{
-    border: 10px solid #ced4da;
-    margin-bottom: 5px;
+.form-container input, .form-container select {
+    border: 1px solid #707070;
+    margin-bottom: 10px;
+    border-radius: 25px;
 }
+
 .form-container h2{
     margin-bottom: 40px;
     color: black;
 }
 
-.dark{
-    background-color: #005b31;
-    height: auto;
+.conteudo input {
+    width: 100%;
+    padding: 5px;
+}
 
+button.remover-produto {
+    color: white;
+    background: #840505;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 19px;
+    position: absolute;
+    margin-top: -18px;
+    font-weight: 900;
 }
-.table{
-    text-align: center;
-    border-width: 1px;
+
+.conteudo .col-4 img {
+    height: 100%;
 }
-.indice{
-    text-align: left;
+
+.conteudo .container {
+    margin: 3rem auto;
 }
+
+.botoes-adicionar button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.botoes-adicionar .icone {
+    background-color: #056684;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 100px;
+    font-weight: 900;
+    font-size: larger;
+    margin-right: 20px;
+}
+
+.botoes-final button {
+    width: 100%;
+}
+
+.botoes-final button {
+    width: 100%;
+    font-weight: bold;
+    border: none;
+    text-transform: uppercase;
+}
+
+button#btnPreview {
+    background-color: #056684;
+}
+
+button#btnReset {
+    background: #F1B513;
+    color: white;
+    height: 100%;
+    border-radius: 6px;
+}
+
 .footer {
     position: fixed;
     left: 0;
